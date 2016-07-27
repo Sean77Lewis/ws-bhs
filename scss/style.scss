@@ -1,0 +1,25 @@
+$meteor: #d4740d;
+$boulder: #787878;
+$blue-zodiac: #0c2745;
+$black-pearl: #091f37;
+$white: #ffffff;
+h3 {
+    color: $boulder;
+}
+
+.get-inv-header {
+    color: $meteor;
+}
+
+footer {
+    background-color: $blue-zodiac;
+}
+
+footer a {
+    color: $white;
+}
+
+h4 {
+    background-color: $black-pearl;
+    color: $white;
+}
