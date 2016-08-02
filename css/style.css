@@ -11,6 +11,49 @@ body {
   color: #444;
   transition: all .4s .3s ease-in; }
 
+body {
+  background-color: #1c2a39;
+  font-family: "Arial", "Sans-serif"; }
+
+.container {
+  width: 960px;
+  background-color: #0c2745;
+  margin: 0 auto; }
+
+header {
+  position: relative; }
+
+h3 {
+  color: #d4740d;
+  margin-left: 20px;
+  margin-bottom: 5px; }
+
+hr {
+  margin-top: 10px; }
+
+.header {
+  position: relative;
+  /*===============================
+=            Top Nav            =
+===============================*/ }
+  .header .top-nav {
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    font-size: 14px; }
+  .header .top-nav li {
+    display: inline;
+    padding-left: 3px; }
+  .header .top-nav li::before {
+    content: "|";
+    padding-right: 5px;
+    padding-left: 5px; }
+  .header .top-nav li:first-child:before {
+    content: " "; }
+  .header .top-nav a {
+    text-decoration: none;
+    color: #ffffff; }
+
 .footer {
   height: 200px;
   background-color: #0c2745;
