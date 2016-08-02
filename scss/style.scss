@@ -1,5 +1,6 @@
-@import'modules/_variables.scss';
-
+@import 'modules/_variables.scss';
+@import 'modules/_defaults.scss';
+@import 'partials/_footer.scss';
 h3 {
   color: $boulder;
 }
