@@ -24,6 +24,7 @@ body {
       height: 40px;
       line-height: 40px;
       color: #fbfbfb;
+      white-space: nowrap;
       width: 200px;
       text-align: center;
       font-weight: normal; }
