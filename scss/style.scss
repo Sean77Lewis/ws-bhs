@@ -1,9 +1,5 @@
-$meteor: #d4740d;
-$boulder: #787878;
-$blue-zodiac: #0c2745;
-$black-pearl: #091f37;
-$white: #ffffff;
-$silver: #e1e0e0;
+@import'modules/_variables.scss';
+
 h3 {
   color: $boulder;
 }
