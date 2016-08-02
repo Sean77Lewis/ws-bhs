@@ -1,3 +1,33 @@
+* {
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
+  color: #444;
+  transition: all .4s .3s ease-in; }
+
+.footer {
+  height: 200px;
+  background-color: #0c2745;
+  color: #666666; }
+  .footer div {
+    float: left;
+    width: 25%;
+    padding-left: 15px; }
+    .footer div h4 {
+      background-color: #091f37;
+      height: 40px;
+      line-height: 40px;
+      color: #fbfbfb;
+      white-space: nowrap;
+      width: 200px;
+      text-align: center;
+      font-weight: normal; }
+
 h3 {
   color: #787878; }
 
