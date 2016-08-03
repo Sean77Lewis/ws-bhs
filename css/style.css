@@ -1,56 +1,125 @@
-/*
-Error: File to import not found or unreadable: modules/_defaults.scss.
-       Load path: /Users/phowley/Documents/dev/classes/gwda113/kev-fund-bhs/scss
-        on line 2 of scss/style.scss
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility; }
 
-1: @import 'modules/_variables.scss';
-2: @import 'modules/_defaults.scss';
-3: @import 'partials/_general.scss';
-4: @import 'partials/_header.scss';
-5: @import 'partials/_footer.scss';
-6: h3 {
-7:   color: $boulder;
+html {
+  font-size: 62.5%; }
 
-Backtrace:
-scss/style.scss:2
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:37:in `css_import?'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/usr/local/lib/ruby/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: modules/_defaults.scss.\A        Load path: /Users/phowley/Documents/dev/classes/gwda113/kev-fund-bhs/scss\A         on line 2 of scss/style.scss\A \A 1: @import 'modules/_variables.scss';\A 2: @import 'modules/_defaults.scss';\A 3: @import 'partials/_general.scss';\A 4: @import 'partials/_header.scss';\A 5: @import 'partials/_footer.scss';\A 6: h3 {\A 7:   color: $boulder;"; }
+body {
+  font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
+  color: #444;
+  transition: all .4s .3s ease-in; }
+
+body {
+  background-color: #1c2a39;
+  font-family: "Arial", "Sans-serif"; }
+
+.container {
+  width: 960px;
+  background-color: #0c2745;
+  margin: 0 auto; }
+
+header {
+  position: relative; }
+
+h3 {
+  color: #d4740d;
+  margin-left: 20px;
+  margin-bottom: 5px; }
+
+hr {
+  margin-top: 10px; }
+
+.header {
+  position: relative;
+  /*===============================
+=            Top Nav            =
+===============================*/ }
+  .header .top-nav {
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    font-size: 14px; }
+  .header .top-nav li {
+    display: inline;
+    padding-left: 3px; }
+  .header .top-nav li::before {
+    content: "|";
+    padding-right: 5px;
+    padding-left: 5px; }
+  .header .top-nav li:first-child:before {
+    content: " "; }
+  .header .top-nav a {
+    text-decoration: none;
+    color: #ffffff; }
+
+.footer {
+  height: 200px;
+  background-color: #0c2745;
+  color: #666666; }
+  .footer div {
+    float: left;
+    width: 25%;
+    padding-left: 15px; }
+    .footer div h4 {
+      background-color: #091f37;
+      height: 40px;
+      line-height: 40px;
+      color: #fbfbfb;
+      white-space: nowrap;
+      width: 200px;
+      text-align: center;
+      font-weight: normal; }
+    .footer div.logos-footer {
+      margin-top: 40px; }
+      .footer div.logos-footer img {
+        padding: 5px; }
+
+.copyright {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center; }
+
+h3 {
+  color: #787878; }
+
+.container {
+  margin: 0px 125px 0px 125px; }
+
+.main-nav li {
+  display: inline;
+  margin: auto;
+  padding: 15px;
+  list-style: none; }
+  .main-nav li li a {
+    color: #ffffff; }
+
+.secondary-nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #e1e0e0; }
+  .secondary-nav ul li {
+    float: left; }
+    .secondary-nav ul li li a {
+      text-decoration: none;
+      display: block;
+      text-align: center;
+      padding: 10px 12px; }
+      .secondary-nav ul li li a li a:hover {
+        background-color: #d4740d; }
+
+.get-inv-header {
+  color: #d4740d; }
+
+footer {
+  background-color: #0c2745; }
+
+footer a {
+  color: #ffffff; }
+
+h4 {
+  background-color: #091f37;
+  color: #ffffff; }
+
+/*# sourceMappingURL=style.css.map */
