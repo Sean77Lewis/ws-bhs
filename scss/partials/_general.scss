@@ -7,6 +7,7 @@ body {
   width: 960px;
   background-color: $blue-zodiac;
   margin: 0 auto;
+  z-index: -2;
 }
 
 header {
@@ -19,6 +20,6 @@ h3 {
   margin-bottom: 5px;
 }
 
-hr {
+h4 {
   margin-top: 10px;
 }

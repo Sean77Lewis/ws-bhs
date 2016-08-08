@@ -3,6 +3,10 @@
   /*===============================
 =            Top Nav            =
 ===============================*/
+  .mainbhs-logo {
+    position: absolute;
+    z-index: 1;
+  }
   .top-nav {
     position: absolute;
     top: 15px;
@@ -24,5 +28,20 @@
   .top-nav a {
     text-decoration: none;
     color: $white;
+  }
+  .facebook-btn {
+    position: absolute;
+    top: 20px;
+    padding-left: 400px;
+  }
+  .search-container {
+    position: absolute;
+    top: 23px;
+    padding-left: 545px;
+  }
+  .donate-btn {
+    position: absolute;
+    top: 20px;
+    padding-left: 760px;
   }
 }
