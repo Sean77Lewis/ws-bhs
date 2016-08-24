@@ -1,47 +1,49 @@
   .header {
-    position: relative;
-    /*===============================
+      position: relative;
+      background-color: $blue-zodiac;
+      height: 55px;
+      /*===============================
 =            Top Nav            =
 ===============================*/
-    .mainbhs-logo {
-      position: absolute;
-      z-index: 2;
-    }
-    .top-nav {
-      position: absolute;
-      top: 15px;
-      left: 100px;
-      font-size: 14px;
-    }
-    .top-nav li {
-      display: inline;
-      padding-left: 3px;
-    }
-    .top-nav li::before {
-      content: "|";
-      padding-right: 5px;
-      padding-left: 5px;
-    }
-    .top-nav li:first-child:before {
-      content: " "
-    }
-    .top-nav a {
-      text-decoration: none;
-      color: $white;
-    }
-    .facebook-btn {
-      position: absolute;
-      top: 12px;
-      left: 400px;
-    }
-    .search-container {
-      position: absolute;
-      top: 12px;
-      left: 545px;
-    }
-    .donate-btn {
-      position: absolute;
-      top: 12px;
-      left: 760px;
-    }
+      .mainbhs-logo {
+          position: absolute;
+          z-index: 2;
+      }
+      .top-nav {
+          position: absolute;
+          top: 15px;
+          left: 100px;
+          font-size: 14px;
+      }
+      .top-nav li {
+          display: inline;
+          padding-left: 3px;
+      }
+      .top-nav li::before {
+          content: "|";
+          padding-right: 5px;
+          padding-left: 5px;
+      }
+      .top-nav li:first-child:before {
+          content: " "
+      }
+      .top-nav a {
+          text-decoration: none;
+          color: $white;
+      }
+      .facebook-btn {
+          position: absolute;
+          top: 12px;
+          left: 400px;
+      }
+      .search-container {
+          position: absolute;
+          top: 12px;
+          left: 545px;
+      }
+      .donate-btn {
+          position: absolute;
+          top: 12px;
+          left: 760px;
+      }
   }

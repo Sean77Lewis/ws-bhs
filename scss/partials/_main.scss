@@ -1,62 +1,45 @@
 .nav {
-  position: relative;
-  .navi-bar {
-    position: absolute;
-    background-color: $dove-gray;
-    top: 65px;
-    width: 960px;
-    height: 90px;
-    z-index: 1px;
-  }
-  .nav-bar {
-    background-color: $silver;
-    position: absolute;
-    // display: block;
-    // padding: 10px;
-    // top: 9px;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    margin: auto 0;
-    height: 60%;
-    padding-top: 13px;
-    padding-left: 145px;
-
-  }
-  .nav-bar li {
-    font-size: 16px;
-    text-align: center;
-    display: inline;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  .nav-bar li::before {
-    content: "|";
-    padding-right: 5px;
-  }
-  .nav-bar li a:hover {
-    background-color: #111;
-  }
+    position: relative;
+    .navi-bar {
+        position: absolute;
+        background-color: $dove-gray;
+        // top: 65px;
+        width: 960px;
+        height: 90px;
+        z-index: 1px;
+    }
+    .nav-bar {
+        background-color: $silver;
+        position: absolute;
+        // display: block;
+        // padding: 10px;
+        // top: 9px;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin: auto 0;
+        height: 60%;
+        padding-top: 13px;
+        padding-left: 145px;
+    }
+    .nav-bar li {
+        font-size: 16px;
+        text-align: center;
+        display: inline;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    .nav-bar li::before {
+        content: "|";
+        padding-right: 5px;
+    }
+    .nav-bar li a:hover {
+        background-color: #111;
+    }
 }
 
-.side-nav {
-  position: relative;
-  width: 325px;
-  height: 525px;
-  top: 155px;
-  background-color: $white;
-  padding: 15px;
-}
-
-.involved-box {
-  position: relative;
-  background-color: $white;
-  width: 162px;
-  height: 400px;
-  padding: 15px;
-}
-
-.get-inv-header {
-  color: $meteor;
+.main-container {
+    padding-top: 120px;
+    background-color: $antique;
 }

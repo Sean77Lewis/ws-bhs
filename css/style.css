@@ -15,22 +15,20 @@ body {
 .container {
   width: 960px;
   background-color: #0c2745;
-  margin: 0 auto; }
-
-header {
-  position: relative; }
+  margin: 0 auto;
+  padding: 0; }
 
 h3 {
-  color: #d4740d;
-  margin-left: 20px;
-  margin-bottom: 5px; }
+  color: #d4740d; }
 
 h4 {
   margin-top: 10px; }
 
 .header {
   position: relative;
-    /*===============================
+  background-color: #0c2745;
+  height: 55px;
+      /*===============================
 =            Top Nav            =
 ===============================*/ }
   .header .mainbhs-logo {
@@ -71,7 +69,6 @@ h4 {
   .nav .navi-bar {
     position: absolute;
     background-color: #666666;
-    top: 65px;
     width: 960px;
     height: 90px;
     z-index: 1px; }
@@ -98,20 +95,12 @@ h4 {
   .nav .nav-bar li a:hover {
     background-color: #111; }
 
-.side-nav {
-  position: relative;
-  width: 325px;
-  height: 525px;
-  top: 155px;
-  background-color: #ffffff;
-  padding: 15px; }
+.main-container {
+  padding-top: 120px;
+  background-color: #eceeef; }
 
-.involved-box {
-  position: relative;
-  background-color: #ffffff;
-  width: 162px;
-  height: 400px;
-  padding: 15px; }
+.side-nav {
+  background-color: #ffffff; }
 
 .get-inv-header {
   color: #d4740d; }
@@ -140,8 +129,9 @@ h4 {
 
 .copyright {
   color: #ffffff;
-  font-size: 12px;
-  text-align: center; }
+  font-size: .5rem;
+  text-align: center;
+  padding-top: 15px; }
 
 h3 {
   color: #787878; }
