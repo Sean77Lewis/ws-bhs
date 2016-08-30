@@ -22,24 +22,25 @@
             <a href="/" class="mainbhs-logo">
                 <img src="img/logo.png" alt="BHS Logo" class="logo">
             </a>
-            <div class="top-header">
-                <ul class="top-nav">
+            <div class="top-header row">
+                <ul class="top-nav col-sm-7">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Contact</a></li>
+                    <li><a href="#" class="facebook-btn btn btn-primary btn-sm">Facebook</a></li>
+                    <li><a href="#" class="donate-btn btn btn-warning btn-sm">Donate!</a></li>
                 </ul>
                 <!-- END .top-nav -->
-                <a href="#" class="facebook-btn btn btn-primary btn-sm">Facebook</a>
-                <div class="search-container">
-                    <form method="get" id="searchform" class="form-search" action="#">
-                        <label for="s" class="assistive-text hidden"></label>
-                        <div class="input-append">
-                            <input id="s" class="span2 search-query" type="search" name="s" placeholder="Search...">
-                        </div>
-                    </form>
+                <div class="search-container col-sm-5 push-sm-7">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search BHS...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Go!</button>
+                        </span>
+                    </div>
                 </div>
-                <a href="#" class="donate-btn btn btn-warning btn-sm">Donate!</a>
+                <!-- END Search-Bar -->
             </div>
             <!-- END .top-header -->
         </header>
@@ -62,20 +63,77 @@
                 <div class="col-sm-4">
                     <aside>
                         <nav class="side-nav">
+                            <div class="dropdown">
+                                <button class="btn btn-sm btn-block dropdown-toggle" type="button" data-toggle="dropdown">Informative Link</button>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item" href="#">Community Assessment Services Center</li>
+                                    <li class="dropdown-item" href="#">Prevention &amp; Services for Older Adults</li>
+                                    <li class="dropdown-item" href="#">link three</li>
+                                    <li class="dropdown-item" href="#">link four</li>
+                                </ul>
+                            </div>
+                            <!-- End of First Button -->
+                            <div class="dropdown">
+                                <button class="btn btn-sm btn-block dropdown-toggle" type="button" data-toggle="dropdown">Some Cool Link</button>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a href="#">link one</a></li>
+                                    <li class="dropdown-item"><a href="#">link two</a></li>
+                                    <li class="dropdown-item"><a href="#">link three</a></li>
+                                    <li class="dropdown-item"><a href="#">link four</a></li>
+                                </ul>
+                                </li>
+                            </div>
+                            <!-- End of Second Button -->
+                            <div class="dropdown">
+                                <button class="btn btn-sm btn-block dropdown-toggle" type="button" data-toggle="dropdown">Some Cool Link</button>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a href="#">link one</a></li>
+                                    <li class="dropdown-item"><a href="#">link two</a></li>
+                                    <li class="dropdown-item"><a href="#">link three</a></li>
+                                    <li class="dropdown-item"><a href="#">link four</a></li>
+                                </ul>
+                                </li>
+                            </div>
+                            <!-- End of Third Button -->
+                            <div class="dropdown">
+                                <button class="btn btn-sm btn-block dropdown-toggle" type="button" data-toggle="dropdown">Some Cool Link</button>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a href="#">link one</a></li>
+                                    <li class="dropdown-item"><a href="#">link two</a></li>
+                                    <li class="dropdown-item"><a href="#">link three</a></li>
+                                    <li class="dropdown-item"><a href="#">link four</a></li>
+                                </ul>
+                                </li>
+                            </div>
+                            <!-- End of Fourth Button -->
+                            <div class="dropdown">
+                                <button class="btn btn-sm btn-block dropdown-toggle" type="button" data-toggle="dropdown">Some Cool Link</button>
+                                <ul class="dropdown-menu">
+                                    <li class="dropdown-item"><a href="#">link one</a></li>
+                                    <li class="dropdown-item"><a href="#">link two</a></li>
+                                    <li class="dropdown-item"><a href="#">link three</a></li>
+                                    <li class="dropdown-item"><a href="#">link four</a></li>
+                                </ul>
+                                </li>
+                            </div>
                         </nav>
                         <!-- End .side-nav -->
                         <h3 class="get-inv-header">Get Involved!</h3>
                         <div class="get-involved">
-                            <img src="img/get-involved.png" alt="Get Involved" height="83" width="94">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut magni doloremque aperiam voluptates nulla sapiente possimus officiis laboriosam deserunt, asperiores quisquam totam excepturi quos distinctio assumenda ex at, quae non.</p>
-                            <a href="#">This is A link</a>
+                            <div class="gi-box">
+                                <img src="img/get-involved.png" alt="Get Involved" height="83" width="94">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut magni doloremque aperiam voluptates nulla sapiente possimus officiis laboriosam deserunt, asperiores quisquam totam excepturi quos distinctio assumenda ex at, quae non.</p>
+                                <a href="#">Click Here For More</a>
+                            </div>
                         </div>
                         <!-- End .get-involved -->
                         <h3>Success Stories</h3>
                         <div class="success-stories">
-                            <img src="img/success-stories.png" alt="Success Stories" height="83" width="94">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut magni doloremque aperiam voluptates nulla sapiente possimus officiis laboriosam deserunt, asperiores quisquam totam excepturi quos distinctio assumenda ex at, quae non.</p>
-                            <a href="#">This is A link</a>
+                            <div class="ss-box">
+                                <img src="img/success-stories.png" alt="Success Stories" height="83" width="94">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut magni doloremque aperiam voluptates nulla sapiente possimus officiis laboriosam deserunt, asperiores quisquam totam excepturi quos distinctio assumenda ex at, quae non.</p>
+                                <a href="#">Click Here For More</a>
+                            </div>
                         </div>
                         <!-- END .success-stories -->
                         <a href="#">Donate</a>

@@ -37,7 +37,7 @@ h4 {
   .header .top-nav {
     position: absolute;
     top: 15px;
-    left: 100px;
+    left: 125px;
     font-size: 14px; }
   .header .top-nav li {
     display: inline;
@@ -51,18 +51,18 @@ h4 {
   .header .top-nav a {
     text-decoration: none;
     color: #ffffff; }
-  .header .facebook-btn {
-    position: absolute;
-    top: 12px;
-    left: 400px; }
   .header .search-container {
-    position: absolute;
-    top: 12px;
-    left: 545px; }
-  .header .donate-btn {
-    position: absolute;
-    top: 12px;
-    left: 760px; }
+    top: 9px; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #35567F;
+  border-color: #35567F; }
+
+.btn-warning {
+  color: #fff;
+  background-color: #d4740d;
+  border-color: #d4740d; }
 
 .nav {
   position: relative; }
@@ -104,6 +104,12 @@ h4 {
 
 .get-inv-header {
   color: #d4740d; }
+
+.gi-box {
+  background-color: #666666; }
+
+.ss-box {
+  background-color: #666666; }
 
 .footer {
   height: 200px;

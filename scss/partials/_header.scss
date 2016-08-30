@@ -12,7 +12,7 @@
       .top-nav {
           position: absolute;
           top: 15px;
-          left: 100px;
+          left: 125px;
           font-size: 14px;
       }
       .top-nav li {
@@ -32,18 +32,31 @@
           color: $white;
       }
       .facebook-btn {
-          position: absolute;
-          top: 12px;
-          left: 400px;
+          // position: absolute;
+          // top: 12px;
+          // left: 400px;
       }
       .search-container {
-          position: absolute;
-          top: 12px;
-          left: 545px;
+          // position: absolute;
+          top: 9px;
+          // bottom: 15px;
+          // left: 545px;
       }
       .donate-btn {
-          position: absolute;
-          top: 12px;
-          left: 760px;
+          // position: absolute;
+          // top: 12px;
+          // left: 515px;
       }
+  }
+  
+  .btn-primary {
+      color: #fff;
+      background-color: $blue-pearl;
+      border-color: $blue-pearl;
+  }
+  
+  .btn-warning {
+      color: #fff;
+      background-color: $meteor;
+      border-color: $meteor;
   }
