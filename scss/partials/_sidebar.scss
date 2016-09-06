@@ -20,9 +20,43 @@
 }
 
 .gi-box {
-    background-color: $dove-gray;
+    background: $atomic-tin;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid $dove-gray;
+    img {
+        float: left;
+        // width: 50%;
+    }
+    p {
+        font-size: .7rem;
+        float: right;
+        width: 60%;
+    }
+    //     a.box-link:before {
+    //     clear: both;
+    //     content: " ";
+    //     display: block;
+    // }
 }
 
 .ss-box {
-    background-color: $dove-gray;
+    background: $atomic-tin;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid $dove-gray;
+    img {
+        float: left;
+        // width: 50%;
+    }
+    p {
+        font-size: .7rem;
+        float: right;
+        width: 60%;
+    }
+    //     a.box-link:before {
+    //     clear: both;
+    //     content: " ";
+    //     display: block;
+    // }
 }

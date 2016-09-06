@@ -1,5 +1,7 @@
 body {
-    background-color: $mirage;
+    background: $mirage;
+    background: -webkit-linear-gradient(to bottom, $mirage, $blue-pearl);
+    background: linear-gradient(to bottom, $mirage, $blue-pearl);
     font-family: "Arial", "Sans-serif";
 }
 

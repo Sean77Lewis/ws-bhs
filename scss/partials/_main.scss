@@ -1,45 +1,62 @@
-.nav {
-    position: relative;
-    .navi-bar {
-        position: absolute;
-        background-color: $dove-gray;
-        // top: 65px;
-        width: 960px;
-        height: 90px;
-        z-index: 1px;
+    .nav {
+        position: relative;
+        .navi-bar {
+            position: absolute;
+            background-color: $dove-gray;
+            // top: 65px;
+            width: 960px;
+            height: 90px;
+            z-index: 1px;
+        }
+        .nav-bar {
+            background: #ECE9E6;
+            background: -webkit-linear-gradient(to bottom, $antique, $atomic-tin);
+            background: linear-gradient(to bottom, $antique, $atomic-tin);
+            position: absolute;
+            // display: block;
+            // padding: 10px;
+            // top: 9px;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto 0;
+            height: 60%;
+            padding-top: 13px;
+            padding-left: 145px;
+        }
+        .nav-bar li {
+            font-size: 16px;
+            text-align: center;
+            display: inline;
+            // padding: 14px 16px;
+            text-decoration: none;
+        }
+        .nav-bar li::before {
+            content: "|";
+            padding-right: 5px;
+        }
+        .nav-bar li a {
+            background: ($atomic-tin, 0.0);
+            display: inline-block;
+            padding: 0px 16px;
+        }
+        .nav-bar li a:hover {
+            color: rgba($meteor, 0.3);
+            font-size: 18px;
+        }
     }
-    .nav-bar {
-        background-color: $silver;
-        position: absolute;
-        // display: block;
-        // padding: 10px;
-        // top: 9px;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        margin: auto 0;
-        height: 60%;
-        padding-top: 13px;
-        padding-left: 145px;
+    
+    .main-container {
+        padding-top: 90px;
+        background-color: $antique;
+        .content-container {
+            right: 15px;
+            background-color: #8e9eab;
+            background: -webkit-linear-gradient(to bottom, $nuka-tin, #eef2f3);
+            background: linear-gradient(to bottom, $nuka-tin, #eef2f3);
+            .breadcrumb {
+                background: rgba(128, 128, 128, 0.0)
+            }
+        }
     }
-    .nav-bar li {
-        font-size: 16px;
-        text-align: center;
-        display: inline;
-        padding: 14px 16px;
-        text-decoration: none;
-    }
-    .nav-bar li::before {
-        content: "|";
-        padding-right: 5px;
-    }
-    .nav-bar li a:hover {
-        background-color: #111;
-    }
-}
-
-.main-container {
-    padding-top: 120px;
-    background-color: $antique;
-}
