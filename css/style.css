@@ -109,10 +109,13 @@ h4 {
   .main-container .content-container {
     right: 15px;
     background-color: #8e9eab;
-    background: -webkit-linear-gradient(to bottom, #cdcfd2, #eef2f3);
-    background: linear-gradient(to bottom, #cdcfd2, #eef2f3); }
+    background: -webkit-linear-gradient(to bottom, #cdcfd2, #eceeef);
+    background: linear-gradient(to bottom, #cdcfd2, #eceeef); }
     .main-container .content-container .breadcrumb {
       background: rgba(128, 128, 128, 0); }
+
+.secondary-container {
+  background: #eceeef; }
 
 .side-nav {
   background-color: #ffffff; }
