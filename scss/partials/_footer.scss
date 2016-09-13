@@ -1,32 +1,37 @@
 .footer {
-  height: 200px;
-  background-color: $blue-zodiac;
-  color: $dove-gray;
-  div {
-    float: left;
-    width: 25%;
-    padding-left: 15px;
-    h4 {
-      background-color: $black-pearl;
-      height: 40px;
-      line-height: 40px;
-      color: $alabaster;
-      white-space: nowrap;
-      width: 200px;
-      text-align: center;
-      font-weight: normal;
+    // height: 200px;
+    width: 960px;
+    // background-color: $blue-zodiac;
+    color: $dove-gray;
+    div {
+        float: left;
+        width: 25%;
+        padding-left: 15px;
+        h4 {
+            font-size: 1.19rem;
+            background-color: $black-pearl;
+            height: 40px;
+            line-height: 40px;
+            color: $alabaster;
+            white-space: nowrap;
+            width: 200px;
+            text-align: center;
+            font-weight: normal;
+        }
+        &.logos-footer {
+            margin-top: 40px;
+            margin-left: 15px;
+            img {
+                left: 10px;
+                // padding: 5px;
+            }
+        }
     }
-    &.logos-footer {
-      margin-top: 40px;
-      img {
-        padding: 5px;
-      }
-    }
-  }
 }
 
 .copyright {
-  color: $white;
-  font-size: 12px;
-  text-align: center;
+    color: $white;
+    font-size: .5rem;
+    text-align: center;
+    padding-top: 15px;
 }

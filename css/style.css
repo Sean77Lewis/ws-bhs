@@ -3,34 +3,37 @@
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
 
+html {
+  font-size: 16px; }
+
 body {
   font: 300 13px/1.6 'Helvetica Neue', Helvetica, Arial;
   color: #444;
   transition: all .4s .3s ease-in; }
 
 body {
-  background-color: #1c2a39;
+  background: #1c2a39;
+  background: -webkit-linear-gradient(to bottom, #1c2a39, #35567F);
+  background: linear-gradient(to bottom, #1c2a39, #35567F);
   font-family: "Arial", "Sans-serif"; }
 
 .container {
   width: 960px;
   background-color: #0c2745;
-  margin: 0 auto; }
-
-header {
-  position: relative; }
+  margin: 0 auto;
+  padding: 0; }
 
 h3 {
-  color: #d4740d;
-  margin-left: 20px;
-  margin-bottom: 5px; }
+  color: #d4740d; }
 
 h4 {
   margin-top: 10px; }
 
 .header {
   position: relative;
-    /*===============================
+  background-color: #0c2745;
+  height: 55px;
+      /*===============================
 =            Top Nav            =
 ===============================*/ }
   .header .mainbhs-logo {
@@ -39,7 +42,7 @@ h4 {
   .header .top-nav {
     position: absolute;
     top: 15px;
-    left: 100px;
+    left: 125px;
     font-size: 14px; }
   .header .top-nav li {
     display: inline;
@@ -53,30 +56,33 @@ h4 {
   .header .top-nav a {
     text-decoration: none;
     color: #ffffff; }
-  .header .facebook-btn {
-    position: absolute;
-    top: 12px;
-    left: 400px; }
   .header .search-container {
-    position: absolute;
-    top: 12px;
-    left: 545px; }
-  .header .donate-btn {
-    position: absolute;
-    top: 12px;
-    left: 760px; }
+    top: 9px; }
+
+.btn-primary {
+  color: #fff;
+  background: #35567F;
+  background: -webkit-linear-gradient(to bottom, #1a8cff, #35567F);
+  background: linear-gradient(to bottom, #1a8cff, #35567F); }
+
+.btn-warning {
+  color: #fff;
+  background: #d4740d;
+  background: -webkit-linear-gradient(to bottom, #ffc266, #d4740d);
+  background: linear-gradient(to bottom, #ffc266, #d4740d); }
 
 .nav {
   position: relative; }
   .nav .navi-bar {
     position: absolute;
     background-color: #666666;
-    top: 65px;
     width: 960px;
     height: 90px;
     z-index: 1px; }
   .nav .nav-bar {
-    background-color: #e1e0e0;
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to bottom, #ffffff, #cdcfd2);
+    background: linear-gradient(to bottom, #ffffff, #cdcfd2);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -90,41 +96,132 @@ h4 {
     font-size: 16px;
     text-align: center;
     display: inline;
-    padding: 14px 16px;
     text-decoration: none; }
   .nav .nav-bar li::before {
     content: "|";
     padding-right: 5px; }
+  .nav .nav-bar li a {
+    background: #e0e1e4, 0;
+    display: inline-block;
+    padding: 0px 16px; }
   .nav .nav-bar li a:hover {
-    background-color: #111; }
+    color: rgba(212, 116, 13, 0.3);
+    font-size: 18px; }
+
+.main-container {
+  padding-top: 90px;
+  background-color: #eceeef; }
+  .main-container .content-container {
+    right: 15px;
+    background-color: #8e9eab;
+    background: -webkit-linear-gradient(to bottom, #cdcfd2, #eceeef);
+    background: linear-gradient(to bottom, #cdcfd2, #eceeef); }
+    .main-container .content-container .main-tag {
+      top: 17px; }
+    .main-container .content-container .breadcrumb {
+      padding-left: 88px;
+      top: 25px;
+      background: rgba(128, 128, 128, 0); }
+      .main-container .content-container .breadcrumb .breadcrumb-item {
+        color: #d4740d; }
+      .main-container .content-container .breadcrumb .breadcrumb-item.active {
+        color: #666666; }
+
+.secondary-container {
+  background: #eceeef; }
+  .secondary-container .meat h2 {
+    color: #d4740d;
+    padding-top: 25px;
+    font-size: 1.4rem; }
 
 .side-nav {
-  position: relative;
-  width: 325px;
-  height: 525px;
-  top: 155px;
-  background-color: #ffffff;
+  background-color: #eceeef;
   padding: 15px; }
-
-.involved-box {
-  position: relative;
-  background-color: #ffffff;
-  width: 162px;
-  height: 400px;
-  padding: 15px; }
+  .side-nav .nav-box-1 {
+    padding: 15px; }
+  .side-nav .dropdown .btn {
+    border-bottom: 1px solid #091f37;
+    text-align: left;
+    background: rgba(128, 128, 128, 0); }
+  .side-nav .dropdown .dropdown-item {
+    color: #35567F;
+    background: #cdcfd2;
+    background: -webkit-linear-gradient(to bottom, #e1e0e0, #cdcfd2);
+    background: linear-gradient(to bottom, #e1e0e0, #cdcfd2); }
 
 .get-inv-header {
-  color: #d4740d; }
+  font-size: 1.5rem;
+  color: #d4740d;
+  padding-left: 10px; }
+
+.gi-box {
+  background: #e0e1e4;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #cdcfd2; }
+  .gi-box img {
+    float: left; }
+  .gi-box p {
+    font-size: .7rem;
+    float: right;
+    width: 60%; }
+
+.ss-header {
+  padding-left: 10px;
+  font-size: 1.5rem; }
+
+.ss-box {
+  background: #e0e1e4;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #cdcfd2; }
+  .ss-box img {
+    float: left; }
+  .ss-box p {
+    font-size: .7rem;
+    float: right;
+    width: 60%; }
+
+.donate-end-btn {
+  background: #d4740d;
+  background: -webkit-linear-gradient(to bottom, #ffc266, #d4740d);
+  background: linear-gradient(to bottom, #ffc266, #d4740d);
+  margin: 10px;
+  padding-left: 107px;
+  padding-right: 107px; }
+
+.articles {
+  top: 18px; }
+  .articles .newsroom {
+    padding-right: 15px; }
+  .articles .media-embed {
+    padding-left: 15px; }
+  .articles .latest-news a {
+    padding-left: 158px; }
+  .articles .latest-news h3 {
+    border-bottom: 1px solid #35567F;
+    margin-top: 15px;
+    color: #35567F; }
+  .articles .latest-news h4 {
+    color: #091f37;
+    background: rgba(128, 128, 128, 0);
+    font-size: 1.0rem; }
+  .articles .article-date {
+    color: #d4740d; }
+  .articles .recent-jobs h4 {
+    border-bottom: 1px solid #35567F;
+    background: rgba(128, 128, 128, 0);
+    color: #35567F; }
 
 .footer {
-  height: 200px;
-  background-color: #0c2745;
+  width: 960px;
   color: #666666; }
   .footer div {
     float: left;
     width: 25%;
     padding-left: 15px; }
     .footer div h4 {
+      font-size: 1.19rem;
       background-color: #091f37;
       height: 40px;
       line-height: 40px;
@@ -134,20 +231,19 @@ h4 {
       text-align: center;
       font-weight: normal; }
     .footer div.logos-footer {
-      margin-top: 40px; }
+      margin-top: 40px;
+      margin-left: 15px; }
       .footer div.logos-footer img {
-        padding: 5px; }
+        left: 10px; }
 
 .copyright {
   color: #ffffff;
-  font-size: 12px;
-  text-align: center; }
+  font-size: .5rem;
+  text-align: center;
+  padding-top: 15px; }
 
 h3 {
   color: #787878; }
-
-footer {
-  background-color: #0c2745; }
 
 footer a {
   color: #ffffff; }
