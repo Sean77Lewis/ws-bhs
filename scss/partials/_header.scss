@@ -51,12 +51,14 @@
   
   .btn-primary {
       color: #fff;
-      background-color: $blue-pearl;
-      border-color: $blue-pearl;
+      background: $blue-pearl;
+      background: -webkit-linear-gradient(to bottom, $nuka-quantum, $blue-pearl);
+      background: linear-gradient(to bottom, $nuka-quantum, $blue-pearl);
   }
   
   .btn-warning {
       color: #fff;
-      background-color: $meteor;
-      border-color: $meteor;
+      background: $meteor;
+      background: -webkit-linear-gradient(to bottom, $nuka-orange, $meteor);
+      background: linear-gradient(to bottom, $nuka-orange, $meteor);
   }

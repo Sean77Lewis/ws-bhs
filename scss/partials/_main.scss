@@ -10,8 +10,8 @@
         }
         .nav-bar {
             background: #ECE9E6;
-            background: -webkit-linear-gradient(to bottom, $antique, $atomic-tin);
-            background: linear-gradient(to bottom, $antique, $atomic-tin);
+            background: -webkit-linear-gradient(to bottom, $white, $nuka-tin);
+            background: linear-gradient(to bottom, $white, $nuka-tin);
             position: absolute;
             // display: block;
             // padding: 10px;
@@ -55,12 +55,28 @@
             background-color: #8e9eab;
             background: -webkit-linear-gradient(to bottom, $nuka-tin, $antique);
             background: linear-gradient(to bottom, $nuka-tin, $antique);
+            .main-tag {
+                top: 17px;
+            }
             .breadcrumb {
-                background: rgba(128, 128, 128, 0.0)
+                padding-left: 88px;
+                top: 25px;
+                background: rgba(128, 128, 128, 0.0);
+                .breadcrumb-item {
+                    color: $meteor;
+                }
+                .breadcrumb-item.active {
+                    color: $dove-gray;
+                }
             }
         }
     }
     
     .secondary-container {
         background: $nuka-void;
+        .meat h2 {
+            color: $meteor;
+            padding-top: 25px;
+            font-size: 1.4rem;
+        }
     }
