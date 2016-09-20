@@ -19,7 +19,7 @@
           display: inline;
           padding-left: 3px;
       }
-      .top-nav li::before {
+      .top-nav li::after {
           content: "|";
           padding-right: 5px;
           padding-left: 5px;
@@ -31,33 +31,26 @@
           text-decoration: none;
           color: $white;
       }
-      .facebook-btn {
-          // position: absolute;
-          // top: 12px;
-          // left: 400px;
-      }
       .search-container {
-          // position: absolute;
           top: 9px;
-          // bottom: 15px;
-          // left: 545px;
       }
-      .donate-btn {
-          // position: absolute;
-          // top: 12px;
-          // left: 515px;
+      .btn-default {
+          padding: .453rem 1rem;
+          background: $radiation;
+          background: -webkit-linear-gradient(to bottom, $white, $nuka-tin);
+          background: linear-gradient(to bottom, $white, $nuka-tin);
       }
   }
   
   .btn-primary {
-      color: #fff;
+      color: $stimpak;
       background: $blue-pearl;
       background: -webkit-linear-gradient(to bottom, $nuka-quantum, $blue-pearl);
       background: linear-gradient(to bottom, $nuka-quantum, $blue-pearl);
   }
   
   .btn-warning {
-      color: #fff;
+      color: $stimpak;
       background: $meteor;
       background: -webkit-linear-gradient(to bottom, $nuka-orange, $meteor);
       background: linear-gradient(to bottom, $nuka-orange, $meteor);

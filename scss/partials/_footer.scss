@@ -2,8 +2,9 @@
     // height: 200px;
     width: 960px;
     // background-color: $blue-zodiac;
-    color: $dove-gray;
+    color: $antique;
     div {
+        border-right: 1px solid $black-pearl;
         float: left;
         width: 25%;
         padding-left: 15px;
@@ -17,6 +18,11 @@
             width: 200px;
             text-align: center;
             font-weight: normal;
+        }
+        &.about-us-footer {
+            h4 {
+                margin-left: 10px;
+            }
         }
         &.logos-footer {
             margin-top: 40px;

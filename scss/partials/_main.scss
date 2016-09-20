@@ -3,19 +3,15 @@
         .navi-bar {
             position: absolute;
             background-color: $dove-gray;
-            // top: 65px;
             width: 960px;
             height: 90px;
             z-index: 1px;
         }
         .nav-bar {
-            background: #ECE9E6;
+            background: $radiation;
             background: -webkit-linear-gradient(to bottom, $white, $nuka-tin);
             background: linear-gradient(to bottom, $white, $nuka-tin);
             position: absolute;
-            // display: block;
-            // padding: 10px;
-            // top: 9px;
             top: 0;
             bottom: 0;
             right: 0;
@@ -26,24 +22,27 @@
             padding-left: 145px;
         }
         .nav-bar li {
-            font-size: 16px;
+            font-size: .84rem;
             text-align: center;
             display: inline;
-            // padding: 14px 16px;
             text-decoration: none;
         }
-        .nav-bar li::before {
+        .nav-bar li::after {
             content: "|";
-            padding-right: 5px;
+            padding-right: 3px;
+        }
+        .nav-bar li:last-child:after {
+            content: " "
         }
         .nav-bar li a {
+            color: $black-pearl;
             background: ($atomic-tin, 0.0);
             display: inline-block;
-            padding: 0px 16px;
+            padding: 4px 16px;
         }
         .nav-bar li a:hover {
             color: rgba($meteor, 0.3);
-            font-size: 18px;
+            font-size: .89rem;
         }
     }
     
@@ -52,17 +51,18 @@
         background-color: $antique;
         .content-container {
             right: 15px;
-            background-color: #8e9eab;
+            background-color: $nuka-swirl;
             background: -webkit-linear-gradient(to bottom, $nuka-tin, $antique);
             background: linear-gradient(to bottom, $nuka-tin, $antique);
             .main-tag {
                 top: 17px;
             }
             .breadcrumb {
-                padding-left: 88px;
-                top: 25px;
+                padding-left: 110px;
+                top: 18.75px;
                 background: rgba(128, 128, 128, 0.0);
                 .breadcrumb-item {
+                    font-size: .75rem;
                     color: $meteor;
                 }
                 .breadcrumb-item.active {
